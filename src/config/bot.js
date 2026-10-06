@@ -23,7 +23,7 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        state: "detecting gay activity",     // this is what people actually see
+        name: "detecting gay activity", // required by Discord API, not shown in the client
         type: 3,               // Custom
       },
     ],
